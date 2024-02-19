@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Fashion Landing Page</title>
+  </head>
+  <body>
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="" class="nav__link">Woman</a></li>
+            <li class="nav__item"><a href="" class="nav__link">Man</a></li>
+            <li class="nav__item">
+              <a href="" class="nav__link">Explore</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav__icon-cart">
+          <i class="fa-solid fa-bag-shopping" style="color: #f2bed1"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main-bg">
+      <div class="home">
+        <div class="home__primary">
+          <div class="color-box">
+            <div class="avater">
+              <img
+                class="avater-img"
+                src="/assets/img/main-img-1.jpg"
+                onclick="changeImage('/assets/img/img-1.png')"
+              />
+              <img
+                class="avater-img"
+                src="assets/img/main-img-2.jpg"
+                onclick="changeImage('assets/img/img-2.png')"
+              />
+              <img
+                class="avater-img"
+                src="assets/img/main-img-3.jpg"
+                onclick="changeImage('assets/img/img-3.png')"
+              />
+            </div>
+
+            <p class="EffectP">
+              You'll Never Guess What These Stunning Cover Girl looking
+              oh-so-fly
+            </p>
+            <button class="r-m-btn"><a href="#">Read More</a></button>
+            <div class="icons">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+              <a href="#"><i class="fa-solid fa-share-from-square"></i></a>
+            </div>
+          </div>
+          <h1 class="home__title">
+            <text style="color: rgb(156, 0, 0)">P</text>retty
+            <text style="color: rgb(156, 0, 0)">E</text>xotic
+          </h1>
+
+          <div class="home__img">
+            <img id="mainImage" src="assets/img/img-5.png" />
+          </div>
+        </div>
+
+        <div class="home__secondary">
+          <span class="home__year">NABASIA</span>
+        </div>
+      </div>
+    </main>
+
+    <script src="gsap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
